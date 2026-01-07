@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Aalim Muhammad Salegh College of Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Aalim Muhammad Salegh College of Engineering</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background: linear-gradient(rgba(30, 60, 114, 0.8), rgba(42, 82, 152, 0.8)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>Get in Touch with AMS College</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-intro">
+                    <h2>We're Here to Help</h2>
+                    <p>Have questions about admissions, academics, or campus life? Our team is ready to assist you. Reach out to us through any of the channels below or visit our campus.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="admissions">Admissions Inquiry</option>
+                                    <option value="academics">Academic Information</option>
+                                    <option value="faculty">Faculty Contact</option>
+                                    <option value="placements">Placements & Careers</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">📍</div>
+                            <h4>Visit Our Campus</h4>
+                            <p>Aalim Muhammad Salegh College of Engineering<br>
+                            Chennai, Tamil Nadu - 600001<br>
+                            India</p>
+                            <a href="#map" class="info-link">View on Map</a>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">📞</div>
+                            <h4>Call Us</h4>
+                            <p>Admissions Office: +91 12345 67890<br>
+                            General Enquiries: +91 12345 67891<br>
+                            Emergency: +91 12345 67892</p>
+                            <p class="hours">Mon-Fri: 9:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">✉️</div>
+                            <h4>Email Us</h4>
+                            <p>Admissions: <a href="mailto:admissions@amscoe.edu.in">admissions@amscoe.edu.in</a><br>
+                            General: <a href="mailto:info@amscoe.edu.in">info@amscoe.edu.in</a><br>
+                            Support: <a href="mailto:support@amscoe.edu.in">support@amscoe.edu.in</a></p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">🕒</div>
+                            <h4>Office Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 2:00 PM<br>
+                            Sunday: Closed<br>
+                            Public Holidays: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="additional-info">
+                    <div class="info-section">
+                        <h3>Transportation</h3>
+                        <div class="transport-grid">
+                            <div class="transport-item">
+                                <h5>By Bus</h5>
+                                <p>Bus routes 5A, 15B, 23C stop directly in front of the college main gate.</p>
+                            </div>
+                            <div class="transport-item">
+                                <h5>By Train</h5>
+                                <p>Nearest railway station: Chennai Central (5 km). Auto-rickshaws and taxis available.</p>
+                            </div>
+                            <div class="transport-item">
+                                <h5>By Air</h5>
+                                <p>Nearest airport: Chennai International Airport (15 km). Pre-paid taxis available.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-section">
+                        <h3>Virtual Tour</h3>
+                        <p>Experience our campus virtually through our interactive 360° tour. Explore classrooms, laboratories, hostels, and recreational facilities from the comfort of your home.</p>
+                        <a href="#virtual-tour" class="cta-button">Start Virtual Tour</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Aalim Muhammad Salegh College of Engineering</h4>
+                    <p>Committed to excellence in engineering education</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Chennai, Tamil Nadu</p>
+                    <p>Phone: +91 12345 67890</p>
+                    <p>Email: info@amscoe.edu.in</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aalim Muhammad Salegh College of Engineering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
